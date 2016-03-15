@@ -2,15 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9366109b-6750-46e5-a6f4-68f1ba3a105c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Less-1/index.php" afterPath="$PROJECT_DIR$/Less-1/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Less-1/result.txt" afterPath="$PROJECT_DIR$/Less-1/result.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Less-2/index.php" afterPath="$PROJECT_DIR$/Less-2/index.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Less-24/Logged-in.php" afterPath="$PROJECT_DIR$/Less-24/Logged-in.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Less-3/index.php" afterPath="$PROJECT_DIR$/Less-3/index.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Less-40/Logged-in.php" afterPath="$PROJECT_DIR$/Less-40/Logged-in.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sql-connections/db-creds.inc" afterPath="$PROJECT_DIR$/sql-connections/db-creds.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sql-connections/setup-db-challenge.php" afterPath="$PROJECT_DIR$/sql-connections/setup-db-challenge.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sql-connections/setup-db.php" afterPath="$PROJECT_DIR$/sql-connections/setup-db.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sql-connections/sql-connect.php" afterPath="$PROJECT_DIR$/sql-connections/sql-connect.php" />
     </list>
     <ignored path="sqli-labs.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -32,10 +26,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Less-2/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.77367777">
+            <state vertical-scroll-proportion="-24.192308">
               <caret line="49" column="20" selection-start-line="49" selection-start-column="20" selection-end-line="49" selection-end-column="20" />
               <folding>
                 <marker date="1458010562757" expanded="true" signature="841:883" placeholder="SELECT * FRO... users" />
@@ -56,6 +50,18 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Less-3/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.4809348">
+              <caret line="35" column="12" selection-start-line="35" selection-start-column="12" selection-end-line="35" selection-end-column="12" />
+              <folding>
+                <marker date="1458010873442" expanded="true" signature="849:895" placeholder="SELECT * FRO... users" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="Git.Settings">
@@ -70,6 +76,7 @@
         <option value="$PROJECT_DIR$/sql-connections/sql-connect.php" />
         <option value="$PROJECT_DIR$/Less-1/index.php" />
         <option value="$PROJECT_DIR$/Less-2/index.php" />
+        <option value="$PROJECT_DIR$/Less-3/index.php" />
       </list>
     </option>
   </component>
@@ -157,6 +164,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="sqli-labs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sqli-labs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sqli-labs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Less-3" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -350,14 +371,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sql-connections/db-creds.inc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.9615384">
-          <caret line="3" column="14" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/com/jetbrains/php/lang/psi/stubs/data/mysql.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.050430503">
@@ -416,6 +429,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Less-2/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-24.192308">
+          <caret line="49" column="20" selection-start-line="49" selection-start-column="20" selection-end-line="49" selection-end-column="20" />
+          <folding>
+            <marker date="1458010562757" expanded="true" signature="841:883" placeholder="SELECT * FRO... users" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sql-connections/db-creds.inc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2509225">
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Less-1/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-11.961538">
@@ -426,12 +457,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Less-2/index.php">
+    <entry file="file://$PROJECT_DIR$/Less-3/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.77367777">
-          <caret line="49" column="20" selection-start-line="49" selection-start-column="20" selection-end-line="49" selection-end-column="20" />
+        <state vertical-scroll-proportion="0.4809348">
+          <caret line="35" column="12" selection-start-line="35" selection-start-column="12" selection-end-line="35" selection-end-column="12" />
           <folding>
-            <marker date="1458010562757" expanded="true" signature="841:883" placeholder="SELECT * FRO... users" />
+            <marker date="1458010873442" expanded="true" signature="849:895" placeholder="SELECT * FRO... users" />
           </folding>
         </state>
       </provider>
