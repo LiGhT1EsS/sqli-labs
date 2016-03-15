@@ -12,7 +12,7 @@ if (!isset($_COOKIE["Auth"]))
 <html>
 <head>
 <title>
-</title>
+</title>zhes
 </head>
 <body bgcolor="#000000">
 <div align="right">
