@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="9366109b-6750-46e5-a6f4-68f1ba3a105c" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Less-24/Logged-in.php" afterPath="$PROJECT_DIR$/Less-24/Logged-in.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Less-3/index.php" afterPath="$PROJECT_DIR$/Less-3/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Less-4/index.php" afterPath="$PROJECT_DIR$/Less-4/index.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Less-40/Logged-in.php" afterPath="$PROJECT_DIR$/Less-40/Logged-in.php" />
     </list>
     <ignored path="sqli-labs.iws" />
@@ -27,36 +27,24 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Less-2/index.php">
+        <entry file="file://$PROJECT_DIR$/Less-4/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-24.192308">
-              <caret line="49" column="20" selection-start-line="49" selection-start-column="20" selection-end-line="49" selection-end-column="20" />
+            <state vertical-scroll-proportion="-14.923077">
+              <caret line="32" column="13" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
               <folding>
-                <marker date="1458010562757" expanded="true" signature="841:883" placeholder="SELECT * FRO... users" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Less-1/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-11.961538">
-              <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="49" selection-end-column="5" />
-              <folding>
-                <marker date="1458010497894" expanded="true" signature="838:882" placeholder="SELECT * FRO... users" />
+                <marker date="1458011281441" expanded="true" signature="869:913" placeholder="SELECT * FRO... users" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Less-3/index.php">
+        <entry file="file://$PROJECT_DIR$/Less-5/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.4809348">
-              <caret line="35" column="12" selection-start-line="35" selection-start-column="12" selection-end-line="35" selection-end-column="12" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding>
-                <marker date="1458010873442" expanded="true" signature="849:895" placeholder="SELECT * FRO... users" />
+                <marker date="1458008306469" expanded="true" signature="848:892" placeholder="SELECT * FRO... users" />
               </folding>
             </state>
           </provider>
@@ -77,6 +65,7 @@
         <option value="$PROJECT_DIR$/Less-1/index.php" />
         <option value="$PROJECT_DIR$/Less-2/index.php" />
         <option value="$PROJECT_DIR$/Less-3/index.php" />
+        <option value="$PROJECT_DIR$/Less-4/index.php" />
       </list>
     </option>
   </component>
@@ -164,6 +153,34 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="sqli-labs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sqli-labs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sqli-labs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Less-5" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sqli-labs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sqli-labs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Less-4" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -429,16 +446,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Less-2/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-24.192308">
-          <caret line="49" column="20" selection-start-line="49" selection-start-column="20" selection-end-line="49" selection-end-column="20" />
-          <folding>
-            <marker date="1458010562757" expanded="true" signature="841:883" placeholder="SELECT * FRO... users" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sql-connections/db-creds.inc">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.2509225">
@@ -447,9 +454,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Less-3/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6063961">
+          <caret line="37" column="16" selection-start-line="37" selection-start-column="16" selection-end-line="37" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Less-1/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.961538">
+        <state vertical-scroll-proportion="0.38253382">
           <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="49" selection-end-column="5" />
           <folding>
             <marker date="1458010497894" expanded="true" signature="838:882" placeholder="SELECT * FRO... users" />
@@ -457,12 +472,32 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Less-3/index.php">
+    <entry file="file://$PROJECT_DIR$/Less-2/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4809348">
-          <caret line="35" column="12" selection-start-line="35" selection-start-column="12" selection-end-line="35" selection-end-column="12" />
+        <state vertical-scroll-proportion="0.77367777">
+          <caret line="49" column="20" selection-start-line="49" selection-start-column="20" selection-end-line="49" selection-end-column="20" />
           <folding>
-            <marker date="1458010873442" expanded="true" signature="849:895" placeholder="SELECT * FRO... users" />
+            <marker date="1458010562757" expanded="true" signature="841:883" placeholder="SELECT * FRO... users" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Less-4/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-14.923077">
+          <caret line="32" column="13" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
+          <folding>
+            <marker date="1458011281441" expanded="true" signature="869:913" placeholder="SELECT * FRO... users" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Less-5/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1458008306469" expanded="true" signature="848:892" placeholder="SELECT * FRO... users" />
           </folding>
         </state>
       </provider>
