@@ -28,23 +28,25 @@ fclose($fp);
 // connectivity 
 
 
-$sql="SELECT * FROM users WHERE id=(('$id')) LIMIT 0,1";
-$result=mysql_query($sql);
-$row = mysql_fetch_array($result);
+	$sql="SELECT * FROM users WHERE id=(('$id')) LIMIT 0,1";
+	$result=$con->query($sql);
+	if(!$result) {
+		die('You have an error in your SQL syntax');
+	}
+	$row = $result->fetch_assoc($result);
 
 	if($row)
 	{
-  	echo '<font color= "#FFFF00">';	
-  	echo 'You are in.... Use outfile......';
-  	echo "<br>";
-  	echo "</font>";
+		echo '<font color= "#FFFF00">';
+		echo 'You are in.... Use outfile......';
+		echo "<br>";
+		echo "</font>";
   	}
 	else 
 	{
-	echo '<font color= "#FFFF00">';
-	echo 'You have an error in your SQL syntax';
-	//print_r(mysql_error());
-	echo "</font>";  
+		echo '<font color= "#FFFF00">';
+		echo 'You have an error in your SQL syntax';
+		echo "</font>";
 	}
 }
 	else { echo "Please input the ID as parameter with numeric value";}

@@ -32,8 +32,7 @@ fclose($fp);
 	$sql="SELECT * FROM users WHERE id=$id LIMIT 0,1";
 	$result=$con->query($sql);
 	if (!$result) {
-		echo $con->error;
-		exit;
+		die($con->error);
 	} else {
 		$row = $result->fetch_assoc();
 		if($row)

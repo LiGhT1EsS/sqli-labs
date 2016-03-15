@@ -26,29 +26,30 @@ fclose($fp);
 
 // connectivity 
 
-$id = '"'.$id.'"';
-$sql="SELECT * FROM users WHERE id=$id LIMIT 0,1";
-$result=mysql_query($sql);
-$row = mysql_fetch_array($result);
-
-	if($row)
-	{
-  	echo '<font size="5" color="#FFFF00">';	
-  	echo 'You are in...........';
-  	echo "<br>";
-    	echo "</font>";
-  	}
-	else 
-	{
-	
-	echo '<font size="5" color="#FFFF00">';
-	echo 'You are in...........';
-	//print_r(mysql_error());
-	//echo "You have an error in your SQL syntax";
-	echo "</br></font>";	
-	echo '<font color= "#0000ff" font size= 3>';	
-	
+	$id = '"'.$id.'"';
+	$sql="SELECT * FROM users WHERE id=$id LIMIT 0,1";
+	$result=$con->query($sql);
+	if (!$result) {
+		echo 'You are in...';
+	} else {
+		echo 'You are in...';
 	}
+//	$row = mysql_fetch_array($result);
+
+//	if($row)
+//	{
+//		echo '<font size="5" color="#FFFF00">';
+//		echo 'You are in...........';
+//		echo "<br>";
+//    	echo "</font>";
+//  	}
+//	else
+//	{
+//		echo '<font size="5" color="#FFFF00">';
+//		echo 'You are in...........';
+//		echo "</br></font>";
+//		echo '<font color= "#0000ff" font size= 3>';
+//	}
 }
 	else { echo "Please input the ID as parameter with numeric value";}
 

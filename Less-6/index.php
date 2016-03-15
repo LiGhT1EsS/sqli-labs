@@ -25,25 +25,28 @@ fclose($fp);
 
 // connectivity 
 
-$id = '"'.$id.'"';
-$sql="SELECT * FROM users WHERE id=$id LIMIT 0,1";
-$result=mysql_query($sql);
-$row = mysql_fetch_array($result);
+	$id = '"'.$id.'"';
+	$sql="SELECT * FROM users WHERE id=$id LIMIT 0,1";
+	$result=$con->query($sql);
+	if(!$result) {
+		die($con->error);
+	}
+	$row = $result->fetch_assoc($result);
 
 	if($row)
 	{
-  	echo '<font size="5" color="#FFFF00">';	
-  	echo 'You are in...........';
-  	echo "<br>";
-  	echo "</font>";
+		echo '<font size="5" color="#FFFF00">';
+		echo 'You are in...........';
+		echo "<br>";
+		echo "</font>";
   	}
 	else 
 	{
 	
-	echo '<font size="3"  color= "#FFFF00">';
-	print_r(mysql_error());
-	echo "</br></font>";	
-	echo '<font color= "#0000ff" font size= 3>';	
+		echo '<font size="3"  color= "#FFFF00">';
+		print_r($con->error);
+		echo "</br></font>";
+		echo '<font color= "#0000ff" font size= 3>';
 	
 	}
 }
